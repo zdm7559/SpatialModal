@@ -36,8 +36,8 @@ git clone https://github.com/xingyili/SpatialModal.git
 2. Download dataset repository:
 
 ``` bash
-git submodule init
-git submodule update
+cd SpatialModal
+git submodule update --init --recursive
 ```
 
 3. Build the Anaconda environment, the package version of the essential dependencies noted at [Software dependencies](#Software-dependencies) section. Or use the `environment.yml` to directly build the conda environment.
