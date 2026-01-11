@@ -1,2 +1,5 @@
 # My-First-Project
-这是我的第一个项目
+
+![SpatialModal Overview](./SpatialModal_Overview.png)
+## Overview
+SpatialModal is an innovative multimodal graph learning framework designed to decipher complex tissue heterogeneity by deeply integrating morphological images and gene expression information from spatial transcriptomics (ST) data. The framework employs a hierarchical encoding strategy combined with a dual-level contrastive learning mechanism to achieve robust alignment and probabilistic fusion of modality-specific and shared biological information within a unified latent space. Extensively validated across diverse ST datasets—including human and mouse brains, human breast cancer, and embryonic heart development—SpatialModal demonstrates superior performance in tasks such as spatial domain identification, gene expression denoising, pathological comparison, and developmental trajectory inference, significantly outperforming current state-of-the-art methods. Furthermore, the model maintains exceptional efficacy and compatibility on platforms lacking histological images (such as MERFISH and Stereo-seq), providing a powerful and versatile analytical platform for exploring the complex spatial mechanisms underlying tissue development and disease.
